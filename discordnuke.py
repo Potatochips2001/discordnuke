@@ -25,3 +25,4 @@ while True:
         exit(0)
     except:
         pass
+     time.sleep(0.2)
