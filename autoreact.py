@@ -17,4 +17,4 @@ while True:
         packet = requests.put(f"https://discord.com/api/v8/channels/{channelId}/messages/{msgId}/reactions/🤪/@me", headers=auth)
         print(packet)
         ids.append(msgId)
-        time.sleep(0.25) #you can put whatever time you want here
+    time.sleep(0.2) #you can put whatever time you want here
